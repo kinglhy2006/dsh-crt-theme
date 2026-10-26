@@ -21,7 +21,9 @@ Restart the profile or reload the page. Remove it with `dsh plugin --profile <yo
 ## What it does
 
 - Repaints the conversation and sidebar by overriding the host's design tokens. No component is patched or replaced.
-- Adds the dashboard: speed, memory, CPU, session and lifetime tokens, today's spend.
+- Dashboard in the sidebar footer: output speed and memory on two gauges, CPU, session and lifetime tokens, today's spend, and a peak / off-peak badge for DeepSeek's off-peak pricing.
+- Status line above the input: link state, output speed, memory use and balance at a glance.
+- Balance is shown as fuel — 300 on the dial is full. Below 15% it turns yellow, below 5% red.
 - Optional DeepSeek account balance. The key is read in the host process and never reaches the browser.
 
 ## Balance readout (optional)
