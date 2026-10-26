@@ -4,7 +4,11 @@ A CRT terminal skin for [DeepSeek Harness](https://github.com/deepseek-ai/deepse
 
 ![The skin applied to the conversation and sidebar](docs/preview.png)
 
-*Preview rendered from the skin's own CSS tokens, not a hand-drawn mock.*
+## Dashboard
+
+A gauge widget in the sidebar footer: output speed, memory use, CPU, DeepSeek balance and token totals for the day.
+
+![The dashboard widget](docs/dashboard.png)
 
 ## Install
 
@@ -17,7 +21,7 @@ Restart the profile or reload the page. Remove it with `dsh plugin --profile <yo
 ## What it does
 
 - Repaints the conversation and sidebar by overriding the host's design tokens. No component is patched or replaced.
-- Adds a status line: CPU load, memory use, output speed (tokens/s), session tokens.
+- Adds the dashboard: speed, memory, CPU, session and lifetime tokens, today's spend.
 - Optional DeepSeek account balance. The key is read in the host process and never reaches the browser.
 
 ## Balance readout (optional)
@@ -38,7 +42,7 @@ node test/smoke.mjs
 
 ## 中文
 
-给 DeepSeek Harness 用的 CRT 终端皮肤：近黑底磷光绿、扫描线、等宽字体，只覆盖设计令牌，不改组件结构。装完重启即可；会话顶部多一行状态（CPU、内存、当前 tok/s、会话 token），可选显示 DeepSeek 余额。
+给 DeepSeek Harness 用的 CRT 终端皮肤：近黑底磷光绿、扫描线、等宽字体，只覆盖设计令牌，不改组件结构。侧栏底部带一个仪表盘（输出速度、内存、CPU、余额、token），可选显示 DeepSeek 余额。
 
 ## License
 
