@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="CRT terminal">
+  <rect x="1" y="1" width="62" height="62" rx="10" fill="#020704" stroke="#00ff41" stroke-width="2"/>
+  <rect x="9" y="11" width="46" height="32" rx="4" fill="#04140b" stroke="#1f8a4c" stroke-width="1.5"/>
+  <g stroke="#00ff41" stroke-width="1" opacity="0.55">
+    <line x1="12" y1="16" x2="52" y2="16"/>
+    <line x1="12" y1="21" x2="52" y2="21"/>
+    <line x1="12" y1="26" x2="52" y2="26"/>
+    <line x1="12" y1="31" x2="52" y2="31"/>
+    <line x1="12" y1="36" x2="52" y2="36"/>
+  </g>
+  <path d="M17 20h16M17 25h11M17 30h20" stroke="#00ff41" stroke-width="2" stroke-linecap="round"/>
+  <rect x="22" y="47" width="20" height="4" rx="1.5" fill="#00ff41" opacity="0.85"/>
+  <path d="M14 43h36a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H14a2 2 0 0 1-2-2v-6a2 2 0 0 1 2-2z" fill="#03110a" stroke="#1f8a4c" stroke-width="1.5"/>
+  <circle cx="45" cy="48" r="1.6" fill="#00ff41"/>
+</svg>

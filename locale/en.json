@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "CRT Terminal Skin",
+    "description": "Turns the Harness UI into a retro terminal: black-green phosphor palette, mono type, fine scanlines, plus a car-cluster dashboard in the sidebar footer (decode speed / memory / CPU / balance / tokens)."
+  }
+}
